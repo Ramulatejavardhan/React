@@ -13,4 +13,4 @@ class human{
 }
 const person1=new human("teja",20);
 person1.talk();
-person1.walk()
+person1.walk();
