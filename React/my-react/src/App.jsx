@@ -1,8 +1,10 @@
-import Header from "./Header.jsx"
-
+import Component from "./component";
 function App() {
   return (
-    <Header/>
+    <div class="in">
+    <h1>hello</h1>
+    <Component/>
+    </div>
   );
 }
 export default App;
