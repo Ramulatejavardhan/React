@@ -1,3 +1,5 @@
+import React from "react";
+import Childcompo1 from "./childcompo1";
 function Component(){
     return (
         <div>
@@ -6,6 +8,7 @@ function Component(){
                 <li>hi</li>
                 <li>bye</li>
             </ol>
+            <Childcompo1/>
         </div>
     );
 }
