@@ -2,7 +2,7 @@
 function Childcompo1(){
     return(
         <div>
-            <h3>Childcompo1</h3>
+            <h3 class="child">Childcompo1</h3>
         </div>
     );
 }
