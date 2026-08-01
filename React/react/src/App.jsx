@@ -13,6 +13,7 @@ function App() {
       <h1>hello my details are under given:</h1>
       <Members name="teja" role="developer"/>      
       <Members name="tej" role="developer"/>
+      <Members name="tejav" role="designer"/>
     </>
   );
 }
