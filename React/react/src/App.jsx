@@ -5,15 +5,14 @@ import heroImg from './assets/hero.png'
 import './App.css'
 import teammembers from './component/teammembers'
 import Members from './component/teammembers'
+import { team } from './Data/data'
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
       <h1>hello my details are under given:</h1>
-      <Members name="teja" role="developer"/>      
-      <Members name="tej" role="developer"/>
-      <Members name="tejav" role="designer"/>
+      <Membercard name={Members.name} role={Members.role}/>
     </>
   );
 }
