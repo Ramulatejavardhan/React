@@ -1,9 +1,16 @@
-import { Component } from "react"
+function MyButton() {
+  return (
+    <>
+    <h1>click below</h1>
+    <button>I'm a button</button>
+    </>
+  );
+}
 function App() {
   return (
     <>
-      {/* <button>Click Me</button> */}
-      <button/>
+      <MyButton/>
+      <h3>its a button</h3>
     </>
   )
 }
