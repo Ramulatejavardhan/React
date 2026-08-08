@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <MyButton/>
-      <h3>its a button</h3>
+      <h3>its a button...</h3>
     </>
   )
 }
