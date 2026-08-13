@@ -1,7 +1,6 @@
 import hanuman from "./hanuman.jpg"
 function Image(){
     const name="tej"
-    const name1="teja"
     return(
         <>
         <h1>JAI SREE RAM🙏</h1>
@@ -11,7 +10,7 @@ function Image(){
         <img src="hanuman1.jpg" alt="hanumanji" width="220px"/>
         {/* we can access the image by giving that image to public folder without importing the image. */}
         <h1>Hello{name}</h1>
-        <h1>Hello{name1}</h1>
+        <h1>Hello{name}</h1>
         </>
     );
 }
