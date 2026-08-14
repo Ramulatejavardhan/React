@@ -1,9 +1,14 @@
 import React from "react";
 import Image from "./img.jsx";
+import Greet from "./greet.jsx"
 function App(){
     return(
         <>
         <Image/>
+        <Greet
+            name="tej"
+            age={30}
+        />
         </>
     );
 }
