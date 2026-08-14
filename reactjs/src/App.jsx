@@ -5,10 +5,11 @@ function App(){
     return(
         <>
         <Image/>
-        <Greet
+        {/* <Greet
             name="tej"
             age={30}
-        />
+        /> */}
+        <Greet name="tej"/>
         </>
     );
 }
