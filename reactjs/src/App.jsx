@@ -9,7 +9,10 @@ function App(){
             name="tej"
             age={30}
         /> */}
-        <Greet name="tej"/>
+        <Greet
+            name="tej"
+            age={30}
+        />
         </>
     );
 }
