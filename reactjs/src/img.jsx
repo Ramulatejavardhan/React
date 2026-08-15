@@ -10,7 +10,7 @@ function Image(){
         <img src="hanuman1.jpg" alt="hanumanji" width="220px"/>
         {/* we can access the image by giving that image to public folder without importing the image. */}
          <h1>Hello JAI SREE RAM🙏 {name}</h1> {/* we can access the element by {} to use the javascript} */}
-        <h1>Hello JAI{name}</h1>
+        <h1>Hello JAI SREE RAM🙏{name}</h1>
         </>
     );
 }
