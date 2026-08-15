@@ -9,6 +9,6 @@
 
 export default function greet({name}){
     return(
-        <h1>hello {name}</h1> //we can access the props from the app.jsx 
+        <h1>hello {name}</h1> //we can access the props from the app.jsx file.
     );
 }
