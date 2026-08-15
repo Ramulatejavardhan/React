@@ -12,6 +12,7 @@ function App(){
         <Greet
             name="tej"
             age={30}
+            place="hyd"
         />
         </>
     );
