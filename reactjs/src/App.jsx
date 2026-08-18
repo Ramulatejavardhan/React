@@ -5,7 +5,6 @@ function App(){
     return(
         <>
         <Image/>
-        <Image/>
         {/* <Greet
             name="tej"
             age={30}
