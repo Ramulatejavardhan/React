@@ -1,4 +1,4 @@
-const add=(a,b)=>{
+const addi=(a,b)=>{
     return a+b;
 }
 document.getElementById("val").textContent=add(2,3)
