@@ -7,7 +7,7 @@
 //     );                
 // }
 
-export default function greet({name,age,place}){
+const Greet=({name,age,place}) =>{
     return(
         <>
         <h1>hello {name}</h1> 
@@ -17,3 +17,4 @@ export default function greet({name,age,place}){
         </>
     );
 }
+export default Greet;
