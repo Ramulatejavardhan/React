@@ -4,5 +4,4 @@ export default function Rendering(){
         return <h1>Ur {age} yrs adult</h1>
     }
     return <h1>Ur not adult</h1>
-    }
 }
