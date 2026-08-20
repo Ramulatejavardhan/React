@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "./img.jsx";
-import Greet from "./greet.jsx"
-import Greeting from "./greeting.jsx";
+import Greet from "./components/greet.jsx"
+import Greeting from "./components/greeting.jsx";
 function App(){
     return(
         <>
