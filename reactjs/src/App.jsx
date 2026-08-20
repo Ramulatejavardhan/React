@@ -5,6 +5,7 @@ import Greeting from "./greeting.jsx";
 function App(){
     return(
         <>
+        <Image/>
         {/* <Greet
             name="tej"
             age={30}
