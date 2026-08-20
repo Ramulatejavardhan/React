@@ -14,8 +14,6 @@ const Greet=({name,age,place}) =>{
         {/*we can access the props from the app.jsx file.*/}
         <h1>are u {age} yrs old</h1>
         <h1>are u from {place}</h1>
-        const nam="teja"
-        <h2>hello {nam}</h2>
         </>
     );
 }
