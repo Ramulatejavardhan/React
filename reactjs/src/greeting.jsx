@@ -1,8 +1,8 @@
 export default function Greeting(){
+    const arr="tej";
     return(
         <>
-            const name1="xxxxxxxxx"
-            <h6>hello {name1}</h6>
+            <h6>hello {arr}</h6>
         </>
     );
 }
