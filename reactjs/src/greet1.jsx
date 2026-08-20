@@ -1,4 +1,4 @@
-export default function Greet1(){
+export default function Greeting(){
     return(
         <>
             const name1="xxxxxxxxx"
