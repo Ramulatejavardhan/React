@@ -1,8 +1,7 @@
 import React from "react";
 import Image from "./img.jsx";
 import Greet from "./greet.jsx"
-import Greet1 from "./greet1.jsx";
-import Greeting from "./greet1.jsx";
+import Greet1 from "./greeting.jsx";
 function App(){
     return(
         <>
@@ -16,7 +15,7 @@ function App(){
             age={30}
             place="hyd"
         />
-        <Greeting/>
+        <Greet1/>
         </>
     );
 }
