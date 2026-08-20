@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "./img.jsx";
+import Image from "./components/img.jsx";
 import Greet from "./components/greet.jsx"
 import Greeting from "./components/greeting.jsx";
 function App(){
