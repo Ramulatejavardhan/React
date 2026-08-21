@@ -5,8 +5,9 @@ export default function Rendering(){
     }
     return <h1>Ur still {age}yrs not an adult</h1>*/}
     const islogin=true;
+    return(
     <h2>
         {islogin ? "loginsuccessfully" :"signup"}
     </h2>
-
+    );
 }
