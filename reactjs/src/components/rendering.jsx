@@ -5,9 +5,13 @@ export default function Rendering(){
     }
     return <h1>Ur still {age}yrs not an adult</h1>*/}
     const islogin=true;
+    const admin=true;
     return(
     <h2>
-        {islogin ? "Welcome login successfull" :"Please login"}
+        {admin && "hello"}
+        <br></br>
+        <br></br>
+        {islogin ? "Welcome login successfull" :"Please login"} 
     </h2>
     );
 }
