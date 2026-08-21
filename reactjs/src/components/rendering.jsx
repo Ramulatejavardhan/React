@@ -7,7 +7,7 @@ export default function Rendering(){
     const islogin=true;
     return(
     <h2>
-        {islogin ? "loginsuccessfully" :"signup"}
+        {islogin ? "Welcome login successfull" :"Please login"}
     </h2>
     );
 }
