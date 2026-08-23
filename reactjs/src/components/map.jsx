@@ -4,7 +4,7 @@ export default function Maps() {
     return (
         <>
             {names.map((name) => (
-                <p key={name}>{name}</p>
+                <p key={name}>Hello {name}</p>
             ))}
         </>
     );
