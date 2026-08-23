@@ -1,6 +1,10 @@
 names=["R","Tej","Ram"];
-export default function Map(){
-{names.map((name) => (
-    <p>{name}</p>
-))}
+export default function Maps(){
+    return(
+    <>
+        {names.map((name) => (
+            <p>{name}</p>
+            ))}
+    </>
+);
 }
