@@ -5,6 +5,7 @@ import Greeting from "./components/greeting.jsx";
 import Rendering from "./components/rendering.jsx";
 import Login from "./components/login.jsx";
 import Dashboard from "./components/Dashboard.jsx";
+import Map from "./components/map.jsx";
 function App(){
     const login=true;
     return(
