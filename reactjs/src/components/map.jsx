@@ -1,1 +1,4 @@
-arr=["R","Tej","Ram"];
+names=["R","Tej","Ram"];
+{names.map((name) => (
+    <p>{name}</p>
+))}
