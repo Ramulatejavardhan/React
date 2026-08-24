@@ -8,7 +8,7 @@ export default function Maps() {
                 <p key={name}>Hello {name}</p>
             ))}
             {ages.map((age) =>(
-                <p>my age is {age}</p>
+                <p key={age}>my age is {age}</p>
             ))}
         </>
     );
