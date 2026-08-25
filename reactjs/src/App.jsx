@@ -1,4 +1,3 @@
-
 import Image from "./components/img.jsx";
 import Greet from "./components/greet.jsx"
 import Greeting from "./components/greeting.jsx";
