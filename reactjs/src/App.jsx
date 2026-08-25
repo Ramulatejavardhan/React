@@ -5,6 +5,7 @@ import Rendering from "./components/rendering.jsx";
 import Login from "./components/login.jsx";
 import Dashboard from "./components/Dashboard.jsx";
 import Map from "./components/map.jsx";
+import Filter from "./components/filter.jsx";
 function App(){
     const login=true;
     return(
@@ -24,6 +25,7 @@ function App(){
         <h1>login page</h1>
         {login ? <Dashboard /> : <Login />}
         <Map/>
+        <Filter/>
         </>
     );
 }
