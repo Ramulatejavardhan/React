@@ -1,4 +1,4 @@
-const names = ["R", "Tej", "Ram"];
+const names = ["Jai", "Sri", "Ram"];
 const ages=[19,20,21];
 
 export default function Maps() {
@@ -12,8 +12,8 @@ export default function Maps() {
             ))} */}
             {names.map((name,index) =>(
                 <>
-                <p>HI {name}</p>
-                <p>HI {ages[index]}</p>
+                <h4 key={name}>Hi {name}</h4>
+                <h4 key={ages}>Are U {ages[index]} yrs old</h4>
                 </>
             ))}
         </>
