@@ -10,12 +10,12 @@ export default function Maps() {
             {ages.map((age) =>(
                 <p key={age}>my age is {age}</p>
             ))} */}
-            {{names.map((name,index) =>(
+            {names.map((name,index) =>(
                 <>
                 <p>HI {name}</p>
                 <p>HI {ages[index]}</p>
                 </>
-            ))}}
+            ))}
         </>
     );
 }
