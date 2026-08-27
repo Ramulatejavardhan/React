@@ -1,3 +1,6 @@
 body{
     background-color: rgb(255, 140, 58);
 }
+.image{
+    border-radius: 90px;
+}
