@@ -6,6 +6,7 @@ import Login from "./components/login.jsx";
 import Dashboard from "./components/Dashboard.jsx";
 import Map from "./components/map.jsx";
 import Filter from "./components/filter.jsx";
+import "./App.css"
 function App(){
     const login=true;
     return(
