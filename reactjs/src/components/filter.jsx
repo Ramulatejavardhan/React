@@ -12,6 +12,7 @@ export default function Filter(){
             {adults.map((adult) =>(
             <div key={adult.id}>
                 <h4>This are the adult persons details</h4>
+                <ul>{adult.id}</ul>
                 <ul>{adult.name}</ul>
                 <ul>{adult.age}</ul>
             </div>
