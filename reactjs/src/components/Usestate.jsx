@@ -1,5 +1,5 @@
 import { useState } from "react";
-export default function useState(){
+export default function Usestate(){
     const[count,setcount] =useState(0);
     return(
         <>
