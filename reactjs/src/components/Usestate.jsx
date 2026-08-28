@@ -5,6 +5,7 @@ export default function Usestate(){
         <>
             <h1>Count</h1>
             <button onClick={()=> setcount(count+1)}>➕</button>
+            <h2>{count}</h2>
         </>
     );
 }
